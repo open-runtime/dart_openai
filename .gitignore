@@ -3,7 +3,11 @@
 .packages
 
 build/
+
+# Example build artifacts and secrets (not the example source itself)
+example/.dart_tool/
 example/.env
+example/build/
 
 *.jsonl
 env.g.dart

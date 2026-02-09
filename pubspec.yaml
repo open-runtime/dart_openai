@@ -7,7 +7,7 @@ documentation: https://github.com/anasfik/openai/blob/main/README.md
 issue_tracker: https://github.com/anasfik/openai/issues
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.6.0 <4.0.0"
 
 dependencies:
   http: ^1.1.0
@@ -16,6 +16,6 @@ dependencies:
   fetch_client: ^1.0.2
 
 dev_dependencies:
-  dart_code_metrics: ^4.19.2
-  lints: ^3.0.0
+  # dart_code_metrics removed: deprecated, conflicts with file ^7.0.0 from custom_lint
+  lints: ^6.0.0
   test: ^1.24.3
